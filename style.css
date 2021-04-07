@@ -6,7 +6,13 @@
     box-sizing: border-box;
 }
 body{
+    background-color: coral;
+}
+
+body{
     font-family: montserrat;
+    color: black;
+    background:none;
 }
 nav{
     background: #0082e6;
@@ -41,7 +47,7 @@ a.active,a:hover{
     transition: .5s;
 }
 
-.checkbtn{
+/* .checkbtn{
     font-size: 30px;
     color: white;
     float: right;
@@ -51,7 +57,7 @@ a.active,a:hover{
 }
 #check{
     display: none;
-}
+} */
 @media (max-width: 952px){
     label.logo{
         font-size: 30px;
@@ -100,7 +106,7 @@ a.active,a:hover{
         left: 0;
     }
     section{
-        background: url(BACKGROUND.jpeg);
+        background: url();
         background-size: cover;
         height: calc(100vh - 80px);
 
