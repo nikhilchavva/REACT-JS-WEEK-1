@@ -6,71 +6,71 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-        <!-- <style>
-          body{
-            background-color:coral;    
-          }
-      </style> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </head>
     <body>
-      
-        <nav>
-            <!-- <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-              <i class="fas fa-bars"></i>  
-            </label> -->
-            <label class="logo">My Portfolio</label>
-            <ul>
-                <li><a href="file:///D:/2020501113/REACT%20JS/Day1/about.html"></a>About</li>
-                <li><a href="file:///D:/2020501113/REACT%20JS/Day1/Qualifications.html"></a>Qualifications</li>
-                <li><a href="file:///D:/2020501113/REACT%20JS/Day1/projects.html"></a>Projects</li>
-                <li><a href="file:///D:/2020501113/REACT%20JS/Day1/contact.html"></a>Contact</li>
-            </ul>
-        </nav>
+      <nav>
+        <label class="logo">My Portfolio</label>
+        <ul>
+        <li> <button class="btn btn-outline-success me-2" type="button"><a href="file:///D:/2020501113/REACT%20JS/Day2/about.html">About</a></button></li>
+        <li> <button class="btn btn-outline-success me-2" type="button"><a href="file:///D:/2020501113/REACT%20JS/Day2/Qualifications.html">Qualifications </a></button></li>
+        <li>  <button class="btn btn-outline-success me-2" type="button"><a href="file:///D:/2020501113/REACT%20JS/Day2/projects.html">Projects</a></button></li>
+        <li> <button class="btn btn-outline-success me-2" type="button"><a href="file:///D:/2020501113/REACT%20JS/Day2/contact.html">Contact</a></button></li>
+        </ul>
+    </nav>
     <section>
 
     </section>
     <h2>Qualifications</h2>
-    
-    <table border= 4 width = 50 align="center"> 
-    <tr>
+    <table class="table table-striped table-responsive">
+      <thead>
+        <tbody>
+    <tr class="table-warning">
     <th>College Name</th>
     <th>Board</th>
     <th>City</th>
     <th>Percentage</th>
+  </thead>
+</tbody>
     </tr>
-    <tr>
+    <tr class="table-active">
     <td>GNI Institutions</td>
     <td>JNTU Hyderabad</td>
     <td>Hyderabad</td>
     <td>53.3</td>
     </tr>
-    <tr>
+    <tr class="table-success">
     <td>NRI Junior Kalasala</td>
     <td>Telangana State Board</td>
     <td>Hyderabad</td>
     <td>79.3</td>
     </tr>
-    <tr>
+    <tr class="table-hover">
     <td>GVP High school</td>
     <td>State Board</td>
     <td>Hyderabad</td>
     <td>80</td>
     </tr>
+  </tbody>
     </table>
     <br>
     <style>
+
+
     * {box-sizing: border-box}
     
     .container {
-      width: 100%;
+      width: 100%; height: 20px;
       background-color: #ddd;
     }
     
     .skills {
       text-align: right;
       padding-top: 10px;
-      padding-bottom: 10px;
+      padding-bottom: 20px;
       color: white;
     }
     
